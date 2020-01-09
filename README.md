@@ -43,9 +43,11 @@ decimated(input image)/ reconstructed image/ original image
 ### super resolution with controlled feature
 super resolution is ill-posed problem. when resolution is really low, there are many ways to reconstruct the image. we can also control feature of the image by giving additional feature to the model("Smiling" in example below)
 ![Alt text](/figs/SR_feature.png)
+Conditional flow not only reconstructed super blur image to realistic image, but also controlled feature gradiently
 ### Colorization
 implementing colorization by giving gray image as a condition
 ![Alt text](/figs/Colorization.png)
+gray image(input)/ reconstructed image/ original image
 ### Sketch-to-image
 generating image from simple sketch can also be implemented. Conditioin is simply given using canny-edge detection algorithm.(highly sure of better performance if applied with better edge detection model such as HED)
 ![Alt text](/figs/sketch-to-image.png)
