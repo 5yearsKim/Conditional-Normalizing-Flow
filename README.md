@@ -37,8 +37,9 @@ python3 train.py
 
 # what you can do?
 ### super resolution
-By training wit decimated as a condition, cFlow can successfully generate high resolution images
+By training with decimated as a condition, cFlow can successfully generate high resolution images
 ![Alt text](/figs/SR.jpg)
+decimated(input image)/ reconstructed image/ original image
 ### super resolution with controlled feature
 super resolution is ill-posed problem. when resolution is really low, there are many ways to reconstruct the image. we can also control feature of the image by giving additional feature to the model("Smiling" in example below)
 ![Alt text](/figs/SR_feature.png)
