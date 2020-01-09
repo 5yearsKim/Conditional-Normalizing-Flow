@@ -1,0 +1,14 @@
+name: glow
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - numpy
+  - pillow
+  - pip
+  - python
+  - pytorch
+  - torchvision
+  - tqdm
+  - pip:
+    - torch
