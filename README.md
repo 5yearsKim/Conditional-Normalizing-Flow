@@ -59,3 +59,10 @@ here is simple explanation of principle of this style mixing. My FYP paper is of
 ### image-to-image translation: Modifying feature from given image
 by giving feature(such as "smiling", "Pale face" and so on) as a condition and applying same method as Style transfer, I could also modify feature of the image. 
 ![Alt text](/figs/modifying_feature.png)
+
+
+<br>
+
+### Additionally
+
+We find that Conditional Normalizing Flow can work as feature subtraction for given data. If you are intereseted in feature-subtraction with Conditional-Generative model, take a look at [AE-GAN](https://github.com/5yearsKim/AutoEncoder-GAN). You can do similar thing with AutoEncoder+GAN.
